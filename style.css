@@ -1,0 +1,220 @@
+.header1{
+    background-color: #00b894;
+}
+.sicon{}
+.sicon ul {
+	text-align: center;
+	margin-right: 80px;
+}
+.sicon ul li{
+    display: inline-block;
+}
+.sicon ul li a {
+	display: inline-block;
+	color: #ffffff;
+    padding: 0 6px;
+    transition: .6s;
+}
+.sicon ul li a:hover{
+    background-color: #0984e3;
+    border-radius: 50%;    
+}
+.add {
+	color: #fff;
+}
+#add {
+	margin-right: 20px;
+}
+.logo img {
+	max-width: 100%;
+}
+.main{
+    background-color: #ff6b6b;
+  }
+.main-menu{ text-align: center;
+  
+}
+.main-menu ul {
+	margin-bottom: 0;
+}
+.main-menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 20px;
+	font-size: 20px;
+	margin-left: -4px;
+	color: #fff;
+	font-weight: 700;
+	border-right: 1px solid #ddd;
+}
+.main-menu ul li a:hover{
+    color: #576574;
+    background-color: #ee5253;
+}
+
+
+/* Dropdwon menu */
+.main-menu ul li ul {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 231px;
+	background-color: #ff6b6b;
+    padding-left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.main-menu ul li ul li{
+    display: block;
+      margin-left: 4px;
+}
+.main-menu ul li ul li a{
+    display: block;
+    border-bottom: 1px solid #ddd;
+  
+}
+.main-menu ul li ul li:first-child{
+    border-top: 1px solid #ddd;
+}
+.main-menu ul li:hover >a{
+    background-color: #ee5253;
+}
+.main-menu ul li:hover ul{
+    opacity:1;
+    visibility: visible;
+transform-origin: top center;
+transform: scaleY(1);
+}
+
+/* banner section */
+.banner-section {
+	background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-school-season-welcome-new-students-blackboard-hand-painted-image_12937.jpg);
+	padding: 100px 0;
+	background-position: center center;
+	background-size: cover;
+	max-width: 100%;
+}
+.banner-section h2 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+}
+.banner-section p {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 33px;
+	padding: 20px 50px;
+	text-align: center;
+}
+.link{ text-align: center;}
+.link a {
+	display: inline-block;
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+	text-decoration: none;
+	background: #ff7675;
+	padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.link a:hover{
+    background-color: #ffffff;
+    color: #ff7675;
+    
+}
+
+/* about Section */
+.ab {
+	background-color: #eeeeee;
+	font-size: 45px;
+	font-weight: 600;
+	text-align: center;
+	padding: 50px;
+	text-shadow: 4px 4px 11px #ff4757;
+}
+.about{
+
+}
+.fb img{
+    max-width: 100%;
+}
+.abo {
+	padding-top: 70px;
+    padding-left: 70px;
+    position: relative;
+}
+.bor {
+	background: #d63031;
+	width: 70px;
+	height: 5px;
+	position: absolute;
+	top: -52px;
+	left: -52px;
+}
+strong {
+	font-size: 20px;
+	font-weight: 700;
+}
+span {
+	font-size: 21px;
+}
+/* content Section */
+.con {
+	padding: 50px 0;
+	background: #eee;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: 700;
+	text-shadow: 4px 6px 9px #ff7f50;
+}
+.cont{
+    position: relative;
+}
+.cn {
+	width: 70px;
+	height: 5px;
+	background: #ff6348;
+	position: absolute;
+	top: 110px;
+	left: 612px;
+}
+.content{
+    background-color: #1e90ff;
+}
+.content p {
+	color: #fff;
+	padding: 50px 80px;
+	font-size: 18px;
+	line-height: 33px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+.content ol{}
+.content li {
+	text-align: center;
+	font-size: 20px;
+	color: #ffa502;
+	padding-bottom: 10px;
+}
+/* footer Section */
+
+.footer p {
+	color: #ffffff;
+	font-size: 25px;
+	margin-bottom: 0;
+	background-color: #34495e;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 12px;
+}
